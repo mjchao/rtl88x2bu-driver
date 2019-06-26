@@ -27,3 +27,5 @@ To install:
 `sudo insmod 88x2bu.ko`  
 
 Note: Make sure the device is unplugged before installing the driver.
+
+When Ubuntu restarts, you may need to rerun the above install commands again. To avoid having to do this manually, make everything, then move this repo to the /etc/ directory and copy the rtl88x2bu-driver-init.sh script into /etc/init.d
